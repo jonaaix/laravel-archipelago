@@ -33,13 +33,28 @@ of each package below.
 
 ## Packages
 
-| | Package | |
-| :---: | --- | --- |
-| <a href="https://github.com/jonaaix/laravel-islands"><img src="https://jonaaix.github.io/laravel-islands/logo.svg" alt="Laravel Islands" width="56"></a> | [Laravel Islands](https://github.com/jonaaix/laravel-islands)<br>`aaix/laravel-islands` | Frontend islands for Laravel: server-driven props, real-time model subscriptions, a framework-agnostic core with a Vue adapter. The foundation of every package below. |
-| <a href="https://github.com/jonaaix/laravel-islands-datagrid"><img src="https://jonaaix.github.io/laravel-islands-datagrid/logo.svg" alt="Laravel Islands DataGrid" width="56"></a> | [Laravel Islands DataGrid](https://github.com/jonaaix/laravel-islands-datagrid)<br>`aaix/laravel-islands-datagrid` | Server-driven data tables: one composable for state, one shell for the toolbar, header, skeleton, empty state and pagination. |
-| <a href="https://github.com/jonaaix/laravel-islands-search"><img src="https://raw.githubusercontent.com/jonaaix/laravel-islands-search/main/laravel-islands-search.svg" alt="Laravel Islands Search" width="56"></a> | [Laravel Islands Search](https://github.com/jonaaix/laravel-islands-search)<br>`aaix/laravel-islands-search` | A keyboard-driven global search: one modal, any number of sources, grouped hits, recent hits and search tips, with an optional Filament integration. |
-| <a href="https://github.com/jonaaix/laravel-islands-gallery"><img src="https://raw.githubusercontent.com/jonaaix/laravel-islands-gallery/main/laravel-islands-gallery.svg" alt="Laravel Islands Gallery" width="56"></a> | [Laravel Islands Gallery](https://github.com/jonaaix/laravel-islands-gallery)<br>`aaix/laravel-islands-gallery` | An image gallery: an inline carousel with thumbnails and a full-screen lightbox with zoom, swipe, slideshow and download. |
-| <a href="https://github.com/jonaaix/laravel-islands-filemanager"><img src="https://raw.githubusercontent.com/jonaaix/laravel-islands-filemanager/main/laravel-islands-filemanager.svg" alt="Laravel Islands File Manager" width="56"></a> | [Laravel Islands File Manager](https://github.com/jonaaix/laravel-islands-filemanager)<br>`aaix/laravel-islands-filemanager` | A file manager: folders, list and thumbnail views, notes and comments, previews, keyboard shortcuts and full-text search, including Office files and scanned documents. |
+<table>
+  <tr>
+    <td width="96" align="center"><a href="https://github.com/jonaaix/laravel-islands"><img src="https://jonaaix.github.io/laravel-islands/logo.svg" alt="Laravel Islands" width="80" height="80"></a></td>
+    <td><a href="https://github.com/jonaaix/laravel-islands"><strong>Laravel Islands</strong></a> · <code>aaix/laravel-islands</code><br>Frontend islands for Laravel: server-driven props, real-time model subscriptions, a framework-agnostic core with a Vue adapter. The foundation of every package below.</td>
+  </tr>
+  <tr>
+    <td width="96" align="center"><a href="https://github.com/jonaaix/laravel-islands-datagrid"><img src="https://jonaaix.github.io/laravel-islands-datagrid/logo.svg" alt="Laravel Islands DataGrid" width="80" height="80"></a></td>
+    <td><a href="https://github.com/jonaaix/laravel-islands-datagrid"><strong>Laravel Islands DataGrid</strong></a> · <code>aaix/laravel-islands-datagrid</code><br>Server-driven data tables: one composable for state, one shell for the toolbar, header, skeleton, empty state and pagination.</td>
+  </tr>
+  <tr>
+    <td width="96" align="center"><a href="https://github.com/jonaaix/laravel-islands-search"><img src="https://raw.githubusercontent.com/jonaaix/laravel-islands-search/main/laravel-islands-search.svg" alt="Laravel Islands Search" width="80" height="80"></a></td>
+    <td><a href="https://github.com/jonaaix/laravel-islands-search"><strong>Laravel Islands Search</strong></a> · <code>aaix/laravel-islands-search</code><br>A keyboard-driven global search: one modal, any number of sources, grouped hits, recent hits and search tips, with an optional Filament integration.</td>
+  </tr>
+  <tr>
+    <td width="96" align="center"><a href="https://github.com/jonaaix/laravel-islands-gallery"><img src="https://raw.githubusercontent.com/jonaaix/laravel-islands-gallery/main/laravel-islands-gallery.svg" alt="Laravel Islands Gallery" width="80" height="80"></a></td>
+    <td><a href="https://github.com/jonaaix/laravel-islands-gallery"><strong>Laravel Islands Gallery</strong></a> · <code>aaix/laravel-islands-gallery</code><br>An image gallery: an inline carousel with thumbnails and a full-screen lightbox with zoom, swipe, slideshow and download.</td>
+  </tr>
+  <tr>
+    <td width="96" align="center"><a href="https://github.com/jonaaix/laravel-islands-filemanager"><img src="https://raw.githubusercontent.com/jonaaix/laravel-islands-filemanager/main/laravel-islands-filemanager.svg" alt="Laravel Islands File Manager" width="80" height="80"></a></td>
+    <td><a href="https://github.com/jonaaix/laravel-islands-filemanager"><strong>Laravel Islands File Manager</strong></a> · <code>aaix/laravel-islands-filemanager</code><br>A file manager: folders, list and thumbnail views, notes and comments, previews, keyboard shortcuts and full-text search, including Office files and scanned documents.</td>
+  </tr>
+</table>
 
 ## License
 

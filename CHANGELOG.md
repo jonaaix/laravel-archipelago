@@ -2,6 +2,12 @@
 
 All notable changes to `aaix/laravel-archipelago` will be documented in this file.
 
+## [1.0.1] - 2026-11-02
+
+### Changed
+
+- README lists the packages with full-size logos.
+
 ## [1.0.0] - 2026-11-02
 
 First release.
