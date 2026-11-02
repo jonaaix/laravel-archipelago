@@ -1,7 +1,7 @@
 {
     "name": "aaix/laravel-archipelago",
     "description": "The whole Laravel Islands set in one install: islands, data grid, search, gallery and file manager.",
-    "type": "metapackage",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {

@@ -18,9 +18,9 @@ The whole <a href="https://github.com/jonaaix/laravel-islands">Laravel Islands</
 
 ---
 
-A meta package: it holds no code of its own and installs every Laravel Islands package in one step.
-Each package is required with `^1.0`, so `composer update` brings each of them up to its latest
-release without a new version of this package.
+It installs every Laravel Islands package in one step. Each package is required with `^1.0`, so
+`composer update` brings each of them up to its latest release without a new version of this
+package.
 
 ## Installation
 
@@ -30,6 +30,13 @@ composer require aaix/laravel-archipelago
 
 The packages keep their own setup — Vite plugin, Tailwind source, configuration. Follow the README
 of each package below.
+
+## Laravel Boost
+
+Laravel Boost only picks up skills from packages your `composer.json` requires directly, so the
+skills of the five packages stay out of reach through this one. It ships a skill of its own instead,
+`archipelago-development`, which names the package skill to read for a task. Add
+`aaix/laravel-archipelago` to the packages in `boost.json` and run `php artisan boost:update`.
 
 ## Packages
 

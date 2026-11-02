@@ -2,6 +2,19 @@
 
 All notable changes to `aaix/laravel-archipelago` will be documented in this file.
 
+## [1.0.2] - 2026-11-02
+
+### Added
+
+- An `archipelago-development` skill for Laravel Boost that names the skill of each package. Boost
+  reads skills only from packages a `composer.json` requires directly, so the package skills were
+  out of reach through this package.
+
+### Changed
+
+- Package type `library` instead of `metapackage`: a metapackage installs no files, so it could not
+  ship the skill.
+
 ## [1.0.1] - 2026-11-02
 
 ### Changed
