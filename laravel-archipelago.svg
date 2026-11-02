@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg-core" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+
+    <linearGradient id="face-top" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#273449" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+
+    <linearGradient id="face-left" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#111a2e" />
+    </linearGradient>
+
+    <linearGradient id="face-right" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#172033" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+
+    <linearGradient id="archipelago-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#FB7185" />
+    </linearGradient>
+
+    <linearGradient id="signal-line" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0.3" />
+    </linearGradient>
+
+    <filter id="soft-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" />
+    </filter>
+  </defs>
+
+  <rect x="8" y="8" width="184" height="184" rx="36" fill="url(#bg-core)" stroke="#334155" stroke-width="1.5" />
+
+  <circle cx="100" cy="100" r="72" fill="none" stroke="#38BDF8" stroke-width="1" stroke-dasharray="2 5" opacity="0.3" />
+
+  <g fill="none" stroke="url(#signal-line)" stroke-width="1.5" stroke-dasharray="3 3">
+    <path d="M 100,34 L 100,58" />
+    <path d="M 162,80 L 138,86" />
+    <path d="M 138,152 L 122,132" />
+    <path d="M 62,152 L 78,132" />
+    <path d="M 38,80 L 62,86" />
+  </g>
+
+  <path d="M 100,62 L 134,80 L 134,120 L 100,138 L 66,120 L 66,80 Z" fill="none" stroke="url(#archipelago-glow)" stroke-width="7" stroke-linejoin="round" filter="url(#soft-glow)" opacity="0.85" />
+
+  <path d="M 66,80 L 100,98 L 100,138 L 66,120 Z" fill="url(#face-left)" />
+  <path d="M 100,98 L 134,80 L 134,120 L 100,138 Z" fill="url(#face-right)" />
+  <path d="M 100,62 L 134,80 L 100,98 L 66,80 Z" fill="url(#face-top)" />
+
+  <path d="M 87,77 C 85,73 91,70 96,71 C 100,72 102,76 99,79 C 96,82 90,82 87,77 Z" fill="none" stroke="#38BDF8" stroke-width="1.5" />
+  <path d="M 104,82 C 103,79 108,77 112,78 C 115,79 116,82 113,84 C 110,86 105,85 104,82 Z" fill="none" stroke="#34D399" stroke-width="1.5" />
+  <path d="M 96,88 C 95,86 99,85 101,86 C 103,87 102,90 100,90 C 98,90 96,90 96,88 Z" fill="none" stroke="#FB7185" stroke-width="1.2" />
+
+  <g stroke="#334155" stroke-width="1.5" stroke-linecap="round" opacity="0.9">
+    <path d="M 73,96 L 93,106" />
+    <path d="M 73,104 L 87,111" />
+  </g>
+
+  <g fill="none" stroke="url(#archipelago-glow)" stroke-width="2" stroke-linejoin="round">
+    <path d="M 100,62 L 134,80 L 134,120 L 100,138 L 66,120 L 66,80 Z" />
+    <path d="M 66,80 L 100,98 L 134,80 M 100,98 L 100,138" />
+  </g>
+
+  <g>
+    <circle cx="100" cy="28" r="7" fill="#38BDF8" filter="url(#soft-glow)" opacity="0.8" />
+    <circle cx="100" cy="28" r="4" fill="#38BDF8" />
+    <circle cx="100" cy="28" r="1.5" fill="#0F172A" />
+  </g>
+  <g>
+    <circle cx="168" cy="78" r="7" fill="#34D399" filter="url(#soft-glow)" opacity="0.8" />
+    <circle cx="168" cy="78" r="4" fill="#34D399" />
+    <circle cx="168" cy="78" r="1.5" fill="#0F172A" />
+  </g>
+  <g>
+    <circle cx="142" cy="158" r="7" fill="#FB7185" filter="url(#soft-glow)" opacity="0.8" />
+    <circle cx="142" cy="158" r="4" fill="#FB7185" />
+    <circle cx="142" cy="158" r="1.5" fill="#0F172A" />
+  </g>
+  <g>
+    <circle cx="58" cy="158" r="7" fill="#34D399" filter="url(#soft-glow)" opacity="0.8" />
+    <circle cx="58" cy="158" r="4" fill="#34D399" />
+    <circle cx="58" cy="158" r="1.5" fill="#0F172A" />
+  </g>
+  <g>
+    <circle cx="32" cy="78" r="7" fill="#38BDF8" filter="url(#soft-glow)" opacity="0.8" />
+    <circle cx="32" cy="78" r="4" fill="#38BDF8" />
+    <circle cx="32" cy="78" r="1.5" fill="#0F172A" />
+  </g>
+</svg>

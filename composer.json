@@ -1,0 +1,19 @@
+{
+    "name": "aaix/laravel-archipelago",
+    "description": "The whole Laravel Islands set in one install: islands, data grid, search, gallery and file manager.",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonas Gnioui",
+            "email": "jonaaix@icloud.com"
+        }
+    ],
+    "require": {
+        "aaix/laravel-islands": "^1.0",
+        "aaix/laravel-islands-datagrid": "^1.0",
+        "aaix/laravel-islands-search": "^1.0",
+        "aaix/laravel-islands-gallery": "^1.0",
+        "aaix/laravel-islands-filemanager": "^1.0"
+    }
+}
